@@ -11,12 +11,11 @@
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
             "program": "${workspaceFolder}/src/watch/bin/Debug/netcoreapp2.1/watch.dll",
-            "args": [],
+            "args": ["-t", "-n", "1", "git", "status"],
             "cwd": "${workspaceFolder}/src/watch",
             // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
-            "console": "internalConsole",
-            "stopAtEntry": false,
-            "internalConsoleOptions": "openOnSessionStart"
+            "console": "externalTerminal",
+            "stopAtEntry": false
         },
         {
             "name": ".NET Core Attach",
