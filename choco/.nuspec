@@ -5,6 +5,11 @@
         <version>1.0.0</version>
         <description>Runs a command periodically.</description>
         <authors>Oliver Phillip Roer</authors>
+        <owners>Oliver Phillip Roer</owners>
+        <licenseUrl>https://raw.githubusercontent.com/oliverroer/watch/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/oliverroer/watch/</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <copyright>Copyright 2018</copyright>
     </metadata>
     <files>
         <file src="..\src\watch\bin\release\netcoreapp2.1\win-x64\publish\*.*" target="tools" />

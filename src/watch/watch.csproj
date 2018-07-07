@@ -1,8 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <Version>1.0.0</Version>
+    <Authors>Oliver Phillip Roer</Authors>
+    <Description>Runs a command periodically.</Description>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/oliverroer/watch/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/oliverroer/watch/</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/oliverroer/watch/</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
