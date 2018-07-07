@@ -1,0 +1,1 @@
+choco install watch -s pack

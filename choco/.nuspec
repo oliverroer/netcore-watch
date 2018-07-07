@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>watch</id>
+        <version>1.0.0</version>
+        <description>Runs a command periodically.</description>
+        <authors>Oliver Phillip Roer</authors>
+    </metadata>
+    <files>
+        <file src="..\src\watch\bin\release\netcoreapp2.1\win-x64\publish\*.*" target="tools" />
+    </files>
+</package>
